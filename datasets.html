@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Datasets List</title>
+<script>
+function copyToClipboard(id) {
+    var copyText = document.getElementById(id);
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+}
+</script>
+<style>
+.divbox { border:1px solid #ccc; padding:10px; margin:10px 0; }
+.label { display:inline-block; width:120px; font-weight:bold; }
+.inputbox { width:300px; }
+.copybtn { margin-left:5px; }
+</style>
+</head>
+<body>
+<div class="divbox">
+<span class="label">ds001</span> <span class="label">Lettuce Growth Days Analysis</span> <span class="label">(AGRICULTURE)</span><br>
+<input type="text" class="inputbox" id="file_input_1" value="lettuce_dataset.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_1')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_1" value="https://www.kaggle.com/datasets/jurijsruko/lettuce" readonly><button class="copybtn" onclick="copyToClipboard('url_input_1')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds002</span> <span class="label">Student Depression Dataset</span> <span class="label">(HEALTH)</span><br>
+<input type="text" class="inputbox" id="file_input_2" value="student_depression_dataset.csv(2.9 MB)" readonly><button class="copybtn" onclick="copyToClipboard('file_input_2')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_2" value="https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset" readonly><button class="copybtn" onclick="copyToClipboard('url_input_2')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds003</span> <span class="label">Loan Approval Classification Dataset</span> <span class="label">(FINANCE)</span><br>
+<input type="text" class="inputbox" id="file_input_3" value="loan_data.csv(3.61 MB)" readonly><button class="copybtn" onclick="copyToClipboard('file_input_3')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_3" value="https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data" readonly><button class="copybtn" onclick="copyToClipboard('url_input_3')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds004</span> <span class="label">Remote Work & Mental Health 🌍🧠</span> <span class="label">(EMPLOYMENT/ENVIRONMENTAL)</span><br>
+<input type="text" class="inputbox" id="file_input_4" value="Impact_of_Remote_Work_on_Mental_Health.csv(59" readonly><button class="copybtn" onclick="copyToClipboard('file_input_4')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_4" value="https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health" readonly><button class="copybtn" onclick="copyToClipboard('url_input_4')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds005</span> <span class="label">Unemployment rates by Metropolitan Statistical Area 1990-2016</span> <span class="label">(ECONOMY)</span><br>
+<input type="text" class="inputbox" id="file_input_5" value="Unemployment rates by Metropolitan Statistical Area 1990-2016.xlsx" readonly><button class="copybtn" onclick="copyToClipboard('file_input_5')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_5" value="https://data.world/garyhoov/unemployment-rate-by-city" readonly><button class="copybtn" onclick="copyToClipboard('url_input_5')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds006</span> <span class="label">Mental Health in Tech Survey summary</span> <span class="label">(HEALTH)</span><br>
+<input type="text" class="inputbox" id="file_input_6" value="survey.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_6')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_6" value="https://data.world/quanticdata/mental-health-in-tech-survey" readonly><button class="copybtn" onclick="copyToClipboard('url_input_6')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds007</span> <span class="label">Stockport Secondary School Attendance and Free School Meals</span> <span class="label">(EDUCATION)</span><br>
+<input type="text" class="inputbox" id="file_input_7" value="secondary-free-school-meals-csv-1.csv AND secondary-attendance-csv-2.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_7')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_7" value="https://data.world/datagov-uk/9aa522bb-bab4-4352-9e76-a47bd32139fc" readonly><button class="copybtn" onclick="copyToClipboard('url_input_7')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds008</span> <span class="label">Activity History</span> <span class="label">(HEALTH)</span><br>
+<input type="text" class="inputbox" id="file_input_8" value="ACTIVITIESdata.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_8')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_8" value="https://data.world/jarnoma/activity-history" readonly><button class="copybtn" onclick="copyToClipboard('url_input_8')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds009</span> <span class="label">Olympic medals & host cities summary</span> <span class="label">(SPORTS)</span><br>
+<input type="text" class="inputbox" id="file_input_9" value="Summer Olympics medal count, participation, hosting - Sheet2.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_9')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_9" value="https://data.world/ian/olympic-medals-host-cities" readonly><button class="copybtn" onclick="copyToClipboard('url_input_9')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds010</span> <span class="label">[CONTENT WARNING] Breast Cancer Wisconsin summary</span> <span class="label">(HEALTH)</span><br>
+<input type="text" class="inputbox" id="file_input_10" value="breast-cancer-wisconsin-data/data.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_10')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_10" value="https://data.world/health/breast-cancer-wisconsin" readonly><button class="copybtn" onclick="copyToClipboard('url_input_10')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds011</span> <span class="label">Prison in India - Inmates Escapee</span> <span class="label">(CRIME)</span><br>
+<input type="text" class="inputbox" id="file_input_11" value="Inmates_escapee.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_11')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_11" value="https://data.world/rajanand/prison-in-india/workspace/project-summary?agentid=rajanand&datasetid=prison-in-india" readonly><button class="copybtn" onclick="copyToClipboard('url_input_11')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds012</span> <span class="label">Prison in India - Recidivism</span> <span class="label">(CRIME)</span><br>
+<input type="text" class="inputbox" id="file_input_12" value="Recidivism.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_12')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_12" value="https://data.world/rajanand/prison-in-india/workspace/project-summary?agentid=rajanand&datasetid=prison-in-india" readonly><button class="copybtn" onclick="copyToClipboard('url_input_12')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds013</span> <span class="label">Silicon Valley Diversity Data summary</span> <span class="label">(ECONOMY)</span><br>
+<input type="text" class="inputbox" id="file_input_13" value="Reveal_EEO1_for_2016.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_13')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_13" value="https://data.world/technology/silicon-valley-diversity-data/workspace/project-summary?agentid=technology&datasetid=silicon-valley-diversity-data" readonly><button class="copybtn" onclick="copyToClipboard('url_input_13')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds014</span> <span class="label">Bank Marketing Data</span> <span class="label">(FINANCE)</span><br>
+<input type="text" class="inputbox" id="file_input_14" value="bank-additional-full.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_14')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_14" value="https://data.world/data-society/bank-marketing-data" readonly><button class="copybtn" onclick="copyToClipboard('url_input_14')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds015</span> <span class="label">Tennis Major Tournament Match Statistics summary</span> <span class="label">(SPORTS)</span><br>
+<input type="text" class="inputbox" id="file_input_15" value="Wimbledon-men-2013.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_15')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_15" value="https://data.world/uci/tennis-major-tournament-match-statistics" readonly><button class="copybtn" onclick="copyToClipboard('url_input_15')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds016</span> <span class="label">Road Traffic Accidents 2018</span> <span class="label">(TRANSPORT)</span><br>
+<input type="text" class="inputbox" id="file_input_16" value="2018-5.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_16')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_16" value="https://data.world/datagov-uk/6efe5505-941f-45bf-b576-4c1e09b579a1/workspace/project-summary" readonly><button class="copybtn" onclick="copyToClipboard('url_input_16')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds017</span> <span class="label">NBA Salaries</span> <span class="label">(SPORTS)</span><br>
+<input type="text" class="inputbox" id="file_input_17" value="players.csv AND salaries_1985to2018.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_17')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_17" value="https://data.world/datadavis/nba-salaries" readonly><button class="copybtn" onclick="copyToClipboard('url_input_17')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds018</span> <span class="label">2016 Hacker News Salary Survey Results</span> <span class="label">(ECONOMY)</span><br>
+<input type="text" class="inputbox" id="file_input_18" value="salaries_clean.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_18')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_18" value="https://data.world/brandon-telle/2016-hacker-news-salary-survey-results" readonly><button class="copybtn" onclick="copyToClipboard('url_input_18')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds019</span> <span class="label">China Largest Companies</span> <span class="label">(ECONOMY)</span><br>
+<input type="text" class="inputbox" id="file_input_19" value="China_largest_companies.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_19')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_19" value="https://data.world/finance/china-largest-companies" readonly><button class="copybtn" onclick="copyToClipboard('url_input_19')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds020</span> <span class="label">Kaggle Machine Learning & Data Science Survey - 2020</span> <span class="label">(BUSINESS)</span><br>
+<input type="text" class="inputbox" id="file_input_20" value="kaggle_survey_2020_responses.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_20')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_20" value="https://data.world/technology/kaggle-machine-learning-data-science-survey" readonly><button class="copybtn" onclick="copyToClipboard('url_input_20')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds021</span> <span class="label">Nobel Prize Winners summary</span> <span class="label">()</span><br>
+<input type="text" class="inputbox" id="file_input_21" value="nobel_prize_by_winner.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_21')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_21" value="https://data.world/sya/nobel-prize-winners" readonly><button class="copybtn" onclick="copyToClipboard('url_input_21')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds022</span> <span class="label">World Bank Population, Life Expectancy & Urbanization</span> <span class="label">(GLOBAL)</span><br>
+<input type="text" class="inputbox" id="file_input_22" value="populationlifeexpectancy.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_22')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_22" value="https://data.world/data-literacy/world-bank-population-life-expectancy-urbanization" readonly><button class="copybtn" onclick="copyToClipboard('url_input_22')">Copy</button>   
+</div>
+<div class="divbox">
+<span class="label">ds023</span> <span class="label">Household Waste and Recycling</span> <span class="label">(ECONOMY)</span><br>
+<input type="text" class="inputbox" id="file_input_23" value="household-waste-and-recycling-1.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_23')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_23" value="https://data.world/datagov-uk/e34119e3-a7bb-459d-85fc-3112e3700ec5" readonly><button class="copybtn" onclick="copyToClipboard('url_input_23')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds024</span> <span class="label">Employee Salaries - 2021</span> <span class="label">(ECONOMY)</span><br>
+<input type="text" class="inputbox" id="file_input_24" value="comma-separated-values-file-1.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_24')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_24" value="https://data.world/montgomery-county-of-maryland/e0398c0e-2622-41be-bc12-bf6f46bb2040" readonly><button class="copybtn" onclick="copyToClipboard('url_input_24')">Copy</button> 
+</div>
+<div class="divbox">
+<span class="label">ds025</span> <span class="label">Most Followed on Instagram summary</span> <span class="label">(TECHNOLOGY)</span><br>
+<input type="text" class="inputbox" id="file_input_25" value="most_followed_ig.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_25')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_25" value="https://data.world/socialmediadata/most-followed-on-instagram" readonly><button class="copybtn" onclick="copyToClipboard('url_input_25')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds026</span> <span class="label">Air Traffic Passenger Data</span> <span class="label">(BUSINESS)</span><br>
+<input type="text" class="inputbox" id="file_input_26" value="Air_Traffic_Passenger_Statistics.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_26')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_26" value="https://data.world/data-society/air-traffic-passenger-data" readonly><button class="copybtn" onclick="copyToClipboard('url_input_26')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds027</span> <span class="label">Gun Deaths by County (US)</span> <span class="label">(CRIME)</span><br>
+<input type="text" class="inputbox" id="file_input_27" value="gun-deaths-by-county-QueryResult.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_27')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_27" value="https://data.world/nkrishnaswami/gun-deaths-by-county/workspace/file?filename=gun-deaths-by-county-QueryResult.csv" readonly><button class="copybtn" onclick="copyToClipboard('url_input_27')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds028</span> <span class="label">University Student Satisfaction Survey Results</span> <span class="label">(OTHER)</span><br>
+<input type="text" class="inputbox" id="file_input_28" value="Survey Data Final.xlsx" readonly><button class="copybtn" onclick="copyToClipboard('file_input_28')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_28" value="https://data.world/ericparker/university-student-satisfaction-survey-results" readonly><button class="copybtn" onclick="copyToClipboard('url_input_28')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds029</span> <span class="label">Texas Amusement Park Accidents</span> <span class="label">(HEALTH)</span><br>
+<input type="text" class="inputbox" id="file_input_29" value="Amusement-Park-Injuries-xlsxCleaned.xls" readonly><button class="copybtn" onclick="copyToClipboard('file_input_29')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_29" value="https://data.world/amillerbernd/texas-amusement-park-accidents" readonly><button class="copybtn" onclick="copyToClipboard('url_input_29')">Copy</button>
+</div>
+<div class="divbox">
+<span class="label">ds030</span> <span class="label">Coronavirus daily data summary</span> <span class="label">(HEALTH)</span><br>
+<input type="text" class="inputbox" id="file_input_30" value="full_data.csv" readonly><button class="copybtn" onclick="copyToClipboard('file_input_30')">Copy</button><br>
+<input type="text" class="inputbox" id="url_input_30" value="https://data.world/markmarkoh/coronavirus-data" readonly><button class="copybtn" onclick="copyToClipboard('url_input_30')">Copy</button>
+</div>
+</body>
+</html>
+> 
