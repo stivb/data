@@ -15,4 +15,4 @@ colnames(bad_drivers)[8] <- "lossesPerDriver"
 print(colnames(bad_drivers))
 
 # Print the first few rows to verify
-print(head(bad_drivers, 10))
+print(head(bad_drivers,10))
