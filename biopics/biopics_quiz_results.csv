@@ -1,0 +1,111 @@
+colName,colItem,colCount,colName2,colItem2
+country,Canada,18,NA,NA
+country,Canada/UK,13,NA,NA
+country,UK,146,NA,NA
+country,US,489,NA,NA
+country,US/Canada,11,NA,NA
+country,US/UK,82,NA,NA
+country,US/UK/Canada,2,NA,NA
+type_of_subject,Academic,21,NA,NA
+type_of_subject,Academic (Philosopher),1,NA,NA
+type_of_subject,Activist,31,NA,NA
+type_of_subject,Actor,14,NA,NA
+type_of_subject,Actress,17,NA,NA
+type_of_subject,Actress / activist,1,NA,NA
+type_of_subject,Artist,29,NA,NA
+type_of_subject,Athlete,74,NA,NA
+type_of_subject,Athlete / military,1,NA,NA
+type_of_subject,Author,45,NA,NA
+type_of_subject,Author (poet),13,NA,NA
+type_of_subject,Comedian,7,NA,NA
+type_of_subject,Criminal,81,NA,NA
+type_of_subject,Government,4,NA,NA
+type_of_subject,Historical,76,NA,NA
+type_of_subject,Journalist,2,NA,NA
+type_of_subject,Media,15,NA,NA
+type_of_subject,Medicine,9,NA,NA
+type_of_subject,Military,45,NA,NA
+type_of_subject,Military / activist,1,NA,NA
+type_of_subject,Musician,76,NA,NA
+type_of_subject,Other,159,NA,NA
+type_of_subject,Politician,1,NA,NA
+type_of_subject,Singer,20,NA,NA
+type_of_subject,Teacher,1,NA,NA
+type_of_subject,World leader,17,NA,NA
+race_known,Known,564,NA,NA
+race_known,Unknown,197,NA,NA
+subject_race,African,9,NA,NA
+subject_race,African American,35,NA,NA
+subject_race,Asian,5,NA,NA
+subject_race,Asian American,3,NA,NA
+subject_race,Caribbean,2,NA,NA
+subject_race,Eurasian,1,NA,NA
+subject_race,Hispanic (Latin American),13,NA,NA
+subject_race,Hispanic (Latina),1,NA,NA
+subject_race,Hispanic (Latino),6,NA,NA
+subject_race,Hispanic (White),6,NA,NA
+subject_race,Indian,2,NA,NA
+subject_race,Mediterranean,1,NA,NA
+subject_race,Middle Eastern,11,NA,NA
+subject_race,Middle Eastern (White),13,NA,NA
+subject_race,Multi racial,24,NA,NA
+subject_race,Native American,4,NA,NA
+subject_race,White,428,NA,NA
+subject_sex,Female,177,NA,NA
+subject_sex,Male,584,NA,NA
+subject_sex,Female,133,race_known,Known
+subject_sex,Female,44,race_known,Unknown
+subject_sex,Male,431,race_known,Known
+subject_sex,Male,153,race_known,Unknown
+subject_sex,Female,4,type_of_subject,Academic
+subject_sex,Female,0,type_of_subject,Academic (Philosopher)
+subject_sex,Female,6,type_of_subject,Activist
+subject_sex,Female,0,type_of_subject,Actor
+subject_sex,Female,16,type_of_subject,Actress
+subject_sex,Female,1,type_of_subject,Actress / activist
+subject_sex,Female,7,type_of_subject,Artist
+subject_sex,Female,9,type_of_subject,Athlete
+subject_sex,Female,0,type_of_subject,Athlete / military
+subject_sex,Female,16,type_of_subject,Author
+subject_sex,Female,3,type_of_subject,Author (poet)
+subject_sex,Female,0,type_of_subject,Comedian
+subject_sex,Female,7,type_of_subject,Criminal
+subject_sex,Female,2,type_of_subject,Government
+subject_sex,Female,26,type_of_subject,Historical
+subject_sex,Female,1,type_of_subject,Journalist
+subject_sex,Female,1,type_of_subject,Media
+subject_sex,Female,1,type_of_subject,Medicine
+subject_sex,Female,1,type_of_subject,Military
+subject_sex,Female,0,type_of_subject,Military / activist
+subject_sex,Female,7,type_of_subject,Musician
+subject_sex,Female,57,type_of_subject,Other
+subject_sex,Female,0,type_of_subject,Politician
+subject_sex,Female,10,type_of_subject,Singer
+subject_sex,Female,1,type_of_subject,Teacher
+subject_sex,Female,1,type_of_subject,World leader
+subject_sex,Male,17,type_of_subject,Academic
+subject_sex,Male,1,type_of_subject,Academic (Philosopher)
+subject_sex,Male,25,type_of_subject,Activist
+subject_sex,Male,14,type_of_subject,Actor
+subject_sex,Male,1,type_of_subject,Actress
+subject_sex,Male,0,type_of_subject,Actress / activist
+subject_sex,Male,22,type_of_subject,Artist
+subject_sex,Male,65,type_of_subject,Athlete
+subject_sex,Male,1,type_of_subject,Athlete / military
+subject_sex,Male,29,type_of_subject,Author
+subject_sex,Male,10,type_of_subject,Author (poet)
+subject_sex,Male,7,type_of_subject,Comedian
+subject_sex,Male,74,type_of_subject,Criminal
+subject_sex,Male,2,type_of_subject,Government
+subject_sex,Male,50,type_of_subject,Historical
+subject_sex,Male,1,type_of_subject,Journalist
+subject_sex,Male,14,type_of_subject,Media
+subject_sex,Male,8,type_of_subject,Medicine
+subject_sex,Male,44,type_of_subject,Military
+subject_sex,Male,1,type_of_subject,Military / activist
+subject_sex,Male,69,type_of_subject,Musician
+subject_sex,Male,102,type_of_subject,Other
+subject_sex,Male,1,type_of_subject,Politician
+subject_sex,Male,10,type_of_subject,Singer
+subject_sex,Male,0,type_of_subject,Teacher
+subject_sex,Male,16,type_of_subject,World leader

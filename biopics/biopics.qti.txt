@@ -1,0 +1,205 @@
+1. How many times does *Canada* appear in the column *country*?
+= 18
+2. How many times does *Canada/UK* appear in the column *country*?
+= 13
+3. How many times does *UK* appear in the column *country*?
+= 146
+4. How many times does *US* appear in the column *country*?
+= 489
+5. How many times does *US/Canada* appear in the column *country*?
+= 11
+6. How many times does *US/UK* appear in the column *country*?
+= 82
+7. How many times does *US/UK/Canada* appear in the column *country*?
+= 2
+8. How many times does *Academic* appear in the column *type_of_subject*?
+= 21
+9. How many times does *Academic (Philosopher)* appear in the column *type_of_subject*?
+= 1
+10. How many times does *Activist* appear in the column *type_of_subject*?
+= 31
+11. How many times does *Actor* appear in the column *type_of_subject*?
+= 14
+12. How many times does *Actress* appear in the column *type_of_subject*?
+= 17
+13. How many times does *Actress / activist* appear in the column *type_of_subject*?
+= 1
+14. How many times does *Artist* appear in the column *type_of_subject*?
+= 29
+15. How many times does *Athlete* appear in the column *type_of_subject*?
+= 74
+16. How many times does *Athlete / military* appear in the column *type_of_subject*?
+= 1
+17. How many times does *Author* appear in the column *type_of_subject*?
+= 45
+18. How many times does *Author (poet)* appear in the column *type_of_subject*?
+= 13
+19. How many times does *Comedian* appear in the column *type_of_subject*?
+= 7
+20. How many times does *Criminal* appear in the column *type_of_subject*?
+= 81
+21. How many times does *Government* appear in the column *type_of_subject*?
+= 4
+22. How many times does *Historical* appear in the column *type_of_subject*?
+= 76
+23. How many times does *Journalist* appear in the column *type_of_subject*?
+= 2
+24. How many times does *Media* appear in the column *type_of_subject*?
+= 15
+25. How many times does *Medicine* appear in the column *type_of_subject*?
+= 9
+26. How many times does *Military* appear in the column *type_of_subject*?
+= 45
+27. How many times does *Military / activist* appear in the column *type_of_subject*?
+= 1
+28. How many times does *Musician* appear in the column *type_of_subject*?
+= 76
+29. How many times does *Other* appear in the column *type_of_subject*?
+= 159
+30. How many times does *Politician* appear in the column *type_of_subject*?
+= 1
+31. How many times does *Singer* appear in the column *type_of_subject*?
+= 20
+32. How many times does *Teacher* appear in the column *type_of_subject*?
+= 1
+33. How many times does *World leader* appear in the column *type_of_subject*?
+= 17
+34. How many times does *Known* appear in the column *race_known*?
+= 564
+35. How many times does *Unknown* appear in the column *race_known*?
+= 197
+36. How many times does *African* appear in the column *subject_race*?
+= 9
+37. How many times does *African American* appear in the column *subject_race*?
+= 35
+38. How many times does *Asian* appear in the column *subject_race*?
+= 5
+39. How many times does *Asian American* appear in the column *subject_race*?
+= 3
+40. How many times does *Caribbean* appear in the column *subject_race*?
+= 2
+41. How many times does *Eurasian* appear in the column *subject_race*?
+= 1
+42. How many times does *Hispanic (Latin American)* appear in the column *subject_race*?
+= 13
+43. How many times does *Hispanic (Latina)* appear in the column *subject_race*?
+= 1
+44. How many times does *Hispanic (Latino)* appear in the column *subject_race*?
+= 6
+45. How many times does *Hispanic (White)* appear in the column *subject_race*?
+= 6
+46. How many times does *Indian* appear in the column *subject_race*?
+= 2
+47. How many times does *Mediterranean* appear in the column *subject_race*?
+= 1
+48. How many times does *Middle Eastern* appear in the column *subject_race*?
+= 11
+49. How many times does *Middle Eastern (White)* appear in the column *subject_race*?
+= 13
+50. How many times does *Multi racial* appear in the column *subject_race*?
+= 24
+51. How many times does *Native American* appear in the column *subject_race*?
+= 4
+52. How many times does *White* appear in the column *subject_race*?
+= 428
+53. How many times does *Female* appear in the column *subject_sex*?
+= 177
+54. How many times does *Male* appear in the column *subject_sex*?
+= 584
+55. How many times does *Known* appear in the column :*race_known* when the value in *subject_sex* is *Female*?
+= 133
+56. How many times does *Unknown* appear in the column :*race_known* when the value in *subject_sex* is *Female*?
+= 44
+57. How many times does *Known* appear in the column :*race_known* when the value in *subject_sex* is *Male*?
+= 431
+58. How many times does *Unknown* appear in the column :*race_known* when the value in *subject_sex* is *Male*?
+= 153
+59. How many times does *Academic* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 4
+61. How many times does *Activist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 6
+63. How many times does *Actress* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 16
+64. How many times does *Actress / activist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 1
+65. How many times does *Artist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 7
+66. How many times does *Athlete* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 9
+68. How many times does *Author* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 16
+69. How many times does *Author (poet)* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 3
+71. How many times does *Criminal* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 7
+72. How many times does *Government* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 2
+73. How many times does *Historical* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 26
+74. How many times does *Journalist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 1
+75. How many times does *Media* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 1
+76. How many times does *Medicine* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 1
+77. How many times does *Military* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 1
+79. How many times does *Musician* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 7
+80. How many times does *Other* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 57
+82. How many times does *Singer* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 10
+83. How many times does *Teacher* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 1
+84. How many times does *World leader* appear in the column :*type_of_subject* when the value in *subject_sex* is *Female*?
+= 1
+85. How many times does *Academic* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 17
+86. How many times does *Academic (Philosopher)* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 1
+87. How many times does *Activist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 25
+88. How many times does *Actor* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 14
+89. How many times does *Actress* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 1
+91. How many times does *Artist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 22
+92. How many times does *Athlete* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 65
+93. How many times does *Athlete / military* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 1
+94. How many times does *Author* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 29
+95. How many times does *Author (poet)* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 10
+96. How many times does *Comedian* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 7
+97. How many times does *Criminal* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 74
+98. How many times does *Government* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 2
+99. How many times does *Historical* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 50
+100. How many times does *Journalist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 1
+101. How many times does *Media* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 14
+102. How many times does *Medicine* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 8
+103. How many times does *Military* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 44
+104. How many times does *Military / activist* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 1
+105. How many times does *Musician* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 69
+106. How many times does *Other* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 102
+107. How many times does *Politician* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 1
+108. How many times does *Singer* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 10
+110. How many times does *World leader* appear in the column :*type_of_subject* when the value in *subject_sex* is *Male*?
+= 16
+
