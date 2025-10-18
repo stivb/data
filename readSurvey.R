@@ -95,7 +95,7 @@ numeric_columns <- c(
 hist(df$height_cm)
 
 #exclude outliers
-hist(df$minutes_exercise[df$minutes_exercise <= 1500], breaks = 10))
+hist(df$minutes_exercise[df$minutes_exercise <= 1500], breaks = 10)
 #exclude outliers
 hist(df$miles_from_campus[df$miles_from_campus<100])
 hist(df$height_cm[df$gender == "Woman"])
@@ -211,18 +211,78 @@ barplot(
 
 
 
-award_gender_table <- table(df$award, df$gender)
-award_gender_prop <- prop.table(award_gender_table, margin = 2) * 100
+award_gender_table <- table(df$award, df$gender)  # build contingency table of award (rows) by gender (columns)
+award_gender_prop <- prop.table(award_gender_table, margin = 2) * 100  # convert counts to column-wise percentages (per gender) and scale to percent
 
 # Pie chart for each gender showing award distribution
-par(mfrow = c(1, ncol(award_gender_prop))) # one pie per gender
-for (i in 1:ncol(award_gender_prop)) {
-    pie(
-        award_gender_prop[, i],
-        main = paste("Awards for", colnames(award_gender_prop)[i]),
-        col = rainbow(nrow(award_gender_prop)),
-        labels = paste(rownames(award_gender_prop), "\n", round(award_gender_prop[, i], 1), "%"),
-        init.angle = 90
-    )
-}
+par(mfrow = c(1, ncol(award_gender_prop)))  # set plotting layout to 1 row and one column per gender
+for (i in 1:ncol(award_gender_prop)) {  # loop over each gender (each column) to draw a pie
+    pie(  # draw a pie chart for gender i
+        award_gender_prop[, i],  # slice sizes: percentages of each award for the current gender
+        main = paste("Awards for", colnames(award_gender_prop)[i]),  # title showing the current gender name
+        col = rainbow(nrow(award_gender_prop)),  # use a rainbow palette with one color per award category
+        labels = paste(rownames(award_gender_prop), "\n", round(award_gender_prop[, i], 1), "%"),  # labels with award name and rounded percentage
+        init.angle = 90  # rotate start angle to 90 degrees for consistent orientation
+    )  # end pie call
+}  # end for loop
 par(mfrow = c(1, 1)) # reset layout
+# Histogram of miles from campus (exclude extreme outliers > 100 miles)
+png("hist_miles_from_campus.png")
+hist(
+    df$miles_from_campus[df$miles_from_campus < 100],
+    breaks = 20,
+    main = "Histogram of Miles from Campus ( < 100 miles )",
+    xlab = "Miles from campus",
+    ylab = "Frequency",
+    col = "lightblue"
+)
+dev.off()
+
+
+award_counts <- table(df$award)
+cols <- rainbow(length(award_counts))
+bp <- barplot(
+    award_counts,
+    names.arg = rep("", length(award_counts)), # no labels under bars
+    col = cols,
+    main = "Distribution of Awards",
+    xlab = "Award",
+    ylab = "Count",
+    ylim = c(0, max(award_counts) * 1.15)
+)
+
+text(bp, award_counts, labels = award_counts, pos = 3, cex = 0.8)
+
+legend(
+    "topright",
+    legend = names(award_counts),
+    fill = cols,
+    bty = "o",
+    bg = "white",
+    box.col = "black",
+    cex = 0.9
+)
+
+
+award_counts <- table(df$award) cols <- rainbow(length(award_counts)) bp <- barplot( award_counts, names.arg = rep("", length(award_counts)), # no labels under bars col = cols, main = "Distribution of Awards", xlab = "Award", ylab = "Count", ylim = c(0, max(award_counts) * 1.15) ) 
+
+text(bp, award_counts, labels = award_counts, pos = 3, cex = 0.8) 
+
+legend( "topright", legend = names(award_counts), fill = cols, bty = "o", box.col = "black", cex = 0.9 ) 
+
+award_tab <- table(df$award)
+cols <- rainbow(length(award_tab))
+bp <- barplot(
+    award_tab,
+    names.arg = rep("", length(award_tab)),
+    col = cols,
+    main = "Awards by number",
+    xlab = "Award",
+    ylab = "Count"
+)
+par(xpd = TRUE)                          # allow drawing into margin
+text(bp, -max(award_tab) * 0.05,         # place labels slightly below axis
+         labels = names(award_tab),
+         srt = -45,                          # rotate 45 degrees downward
+         adj = 1, cex = 0.8)
+par(xpd = FALSE)
